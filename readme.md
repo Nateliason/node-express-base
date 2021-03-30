@@ -10,6 +10,7 @@ All credit for these files should go to him!
 2. Go to /routes/index.js and put in the name of your app
 3. Go to variables.env and add your database connection info
 4. Run `npm install`
-5. run `npm start`
+5. Run `npm audit fix`
+6. run `npm start`
 
 Everything should work! If not, something is broken. 
