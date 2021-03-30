@@ -1,7 +1,0 @@
-mixin docForm(doc = {})
-    form(action=`/add/${doc._id || ''}` method="POST" class="card")
-        label(for="name") Name 
-        input(type="text" name="name" value=doc.name)
-        label(for="description") Description 
-        textarea(name="description")= doc.description
-        input(type="submit" value="Save ->" class="button")
